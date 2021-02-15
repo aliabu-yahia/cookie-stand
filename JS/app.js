@@ -26,7 +26,7 @@ parent.appendChild(undorderedList);
 
 let total=0
 console.log(total);
-for(let i=0;i<13;i++){
+for(let i=0;i<14;i++){
     let listItem = document.createElement('li');
   undorderedList.appendChild(listItem);
   let Randomnumber= Math.floor( randomNum(seattleshop.maxPeop,seattleshop.minPeop)*seattleshop.avaCoc)
@@ -55,7 +55,7 @@ parent.appendChild(undorderedList2);
 
 let total2=0
 console.log(total2);
-for(let i=0;i<13;i++){
+for(let i=0;i<14;i++){
     let listItem2 = document.createElement('li');
   undorderedList2.appendChild(listItem2);
   let Randomnumber2= Math.floor( randomNum(tokyoshop.maxPeop,tokyoshop.minPeop)*tokyoshop.avaCoc)
@@ -85,7 +85,7 @@ parent.appendChild(undorderedList3);
 
 let total3=0
 console.log(total3);
-for(let i=0;i<13;i++){
+for(let i=0;i<14;i++){
     let listItem3 = document.createElement('li');
   undorderedList3.appendChild(listItem3);
   let Randomnumber3= Math.floor( randomNum(dubaishop.maxPeop,dubaishop.minPeop)*dubaishop.avaCoc)
@@ -115,7 +115,7 @@ parent.appendChild(undorderedList4);
 
 let total4=0
 console.log(total4);
-for(let i=0;i<13;i++){
+for(let i=0;i<14;i++){
     let listItem4 = document.createElement('li');
   undorderedList4.appendChild(listItem4);
   let Randomnumber4= Math.floor( randomNum(parisshop.maxPeop,parisshop.minPeop)*parisshop.avaCoc)
