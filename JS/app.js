@@ -1,4 +1,4 @@
-'use strict';
+/*'use strict';
 
 function randomNum (min,max){
   return Math.floor( Math.random()*(max-min+1)+min);
@@ -125,33 +125,6 @@ for(let i=0;i<14;i++){
 let listmun4=document.createElement('li');
 undorderedList4.appendChild(listmun4);
 listmun4.textContent = `Total: ${total4}`
+*/
 
 
-let Limashop={
-    name:'Lima',
-    maxPeop:16,
-    minPeop:2,
-    avaCoc:4.6,
-    hourWork:['6am','7am','8am','9am','10am','11am','12pm','1pm','2pm','3pm','4pm','5pm','6pm','7pm'],
-}
-
-
-let header5 = document.createElement('h1');
-parent.appendChild(header5)
-header5.textContent=Limashop.name
-
-let undorderedList5 =document.createElement('ul');
-parent.appendChild(undorderedList5);
-
-let total5=0
-console.log(total5);
-for(let i=0;i<13;i++){
-    let listItem5 = document.createElement('li');
-  undorderedList5.appendChild(listItem5);
-  let Randomnumber5= Math.floor( randomNum(Limashop.maxPeop,Limashop.minPeop)*Limashop.avaCoc)
-   total5=total5+ Randomnumber5
-  listItem5.textContent =`${Limashop.hourWork[i]}: ${Randomnumber5} cookies. `
-}
-let listmun5=document.createElement('li');
-undorderedList5.appendChild(listmun5);
-listmun5.textContent = `Total: ${total5}` 
