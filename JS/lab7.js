@@ -146,3 +146,19 @@ th.textContent=Lima.numCoc[i];
 let th12=document.createElement('th')
 tr6.appendChild(th12)
 th12.textContent=Lima.total;
+
+let tr7=document.createElement('tr');
+table.appendChild(tr7);
+let th13=document.createElement('th')
+tr7.appendChild(th13)
+th13.textContent='Total';
+for(let i=0;i<hourWork.length;i++){
+    let th=document.createElement('td');
+tr7.appendChild(th);
+th.textContent=seattle.numCoc[i]+tokyo.numCoc[i]+Paris.numCoc[i]+dubai.numCoc[i]+Lima.numCoc[i];
+}
+
+let th14=document.createElement('th')
+tr7.appendChild(th14)
+
+th14.textContent=seattle.total+tokyo.total+Paris.total+dubai.total+Lima.total;
