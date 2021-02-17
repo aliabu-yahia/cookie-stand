@@ -72,8 +72,8 @@ div h2{
 div p{
     padding-top: 10px;
 }
-div a{
-    border: firebrick;
+#left{
+    padding-top: 20px;
 }
 
 #lastimg{
