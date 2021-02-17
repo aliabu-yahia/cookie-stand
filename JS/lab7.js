@@ -161,4 +161,3 @@ th.textContent=seattle.numCoc[i]+tokyo.numCoc[i]+Paris.numCoc[i]+dubai.numCoc[i]
 let th14=document.createElement('th')
 tr7.appendChild(th14)
 
-th14.textContent=seattle.total+tokyo.total+Paris.total+dubai.total+Lima.total;
