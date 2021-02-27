@@ -92,6 +92,22 @@ let Lima=new Store('Lima',16,2,4.6);
 Lima.numCock();
 Lima.row();
  
+let submit= document.getElementById("submiting");
+submit.addEventListener("submit",addSubmit);
+
+function addSubmit(event){
+    event.preventDefault();
+    //console.log(event);
+    let name = event.target.Name.value;
+    let max = event.target.maxCustmer.value;
+    let min = event.target.minCustmer.value;
+    let avg = event.target.avgCookie.value;
+    let newStore = new Store(name,max,min,avg);
+    newStore.numCock();
+    newStore.row();
+}
+
+
 let tr2=document.createElement('tr');
 table.appendChild(tr2);
   
@@ -107,36 +123,3 @@ th.textContent= seattle.numCoc[i]+tokyo.numCoc[i]+dubai.numCoc[i]+Paris.numCoc[i
 let th4=document.createElement('th')
 tr2.appendChild(th4)
 th4.textContent=seattle.total+tokyo.total+dubai.total+Paris.total+Lima.total;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
